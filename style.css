@@ -1,0 +1,357 @@
+.box {
+    position: relative;
+    width: 882px;
+    height: 318px;
+  }
+  
+  .box .content {
+    position: fixed;
+    width: 886px;
+    height: 318px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap-group {
+    position: absolute;
+    width: 891px;
+    height: 173px;
+    top: -4px;
+    left: -4px;
+    background-color: var(--lighter);
+    border-radius: 18.05px;
+    border: 9px solid;
+    border-color: var(--brown);
+    box-shadow: 7px 11px 26px #0000002b;
+  }
+  
+  .box .jamsal-n {
+    position: absolute;
+    width: 841px;
+    top: 4px;
+    left: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--brown);
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .find-band-member {
+    position: absolute;
+    width: 542px;
+    top: 215px;
+    left: 24px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark);
+    font-size: 38.5px;
+    letter-spacing: 0;
+    line-height: 51.1px;
+  }
+  .hero-stack {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 918px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .hero-stack .container {
+    position: relative;
+    width: 1440px;
+    height: 918px;
+  }
+  
+  .hero-stack .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 830px;
+    top: 88px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .hero-stack .overlap-group {
+    position: absolute;
+    width: 926px;
+    height: 626px;
+    top: 80px;
+    left: 301px;
+  }
+  
+  .hero-stack .header {
+    position: absolute;
+    width: 926px;
+    height: 609px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .hero-stack .contents {
+    position: relative;
+    width: 926px;
+    height: 609px;
+  }
+  
+  .hero-stack .div {
+    position: absolute;
+    width: 926px;
+    height: 496px;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-stack .information {
+    position: absolute;
+    width: 177px;
+    height: 113px;
+    top: 0;
+    left: 749px;
+  }
+  
+  .hero-stack .man-indicator {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .hero-stack .man-wrapper {
+    position: relative;
+    width: 177.14px;
+    height: 113.14px;
+  }
+  
+  .hero-stack .man {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 9px;
+    left: -4px;
+  }
+  
+  .hero-stack .heading {
+    position: absolute;
+    width: 902px;
+    height: 416px;
+    top: 80px;
+    left: 0;
+  }
+  
+  .hero-stack .overlap-group-2 {
+    position: relative;
+    width: 900px;
+    height: 416px;
+  }
+  
+  .hero-stack .box {
+    position: absolute;
+    width: 455px;
+    height: 136px;
+    top: 143px;
+    left: 14px;
+    background-color: var(--light-gold);
+    border-radius: 26px;
+    transform: rotate(176.34deg);
+  }
+  
+  .hero-stack .we-make-musical {
+    position: absolute;
+    width: 900px;
+    top: 0;
+    left: 0;
+    font-family: "Lexend Deca-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 108px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 136.1px;
+  }
+  
+  .hero-stack .text-wrapper {
+    color: #313131;
+  }
+  
+  .hero-stack .span {
+    color: #f2f4f3;
+  }
+  
+  .hero-stack .button {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: absolute;
+    top: 553px;
+    left: 177px;
+    background-color: var(--light-gold);
+    border-radius: 8px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .hero-stack .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -1px;
+    margin-bottom: -1px;
+  }
+  
+  .hero-stack .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .hero-stack .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: absolute;
+    top: 554px;
+    left: 517px;
+    background-color: var(--light-gold);
+    border-radius: 8px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .hero-stack .text-wrapper-3 {
+    top: 608px;
+    left: 517px;
+    position: absolute;
+    width: 210px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .hero-stack .text-wrapper-4 {
+    top: 689px;
+    left: 478px;
+    position: absolute;
+    width: 210px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .hero-stack .top-ber-menu {
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-stack .menu-wrapper {
+    height: 157px;
+    background-image: url(./img/header-BG.svg);
+    background-size: 100% 100%;
+    background-color: burlywood;
+  }
+  
+  .hero-stack .menu {
+    position: relative;
+    width: 1352px;
+    height: 39px;
+    top: 23px;
+    left: 56px;
+  }
+  
+  .hero-stack .icons {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 1326px;
+  }
+  
+  .hero-stack .round {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 33px;
+    left: 437px;
+    background-color: var(--dark-gold);
+    border-radius: 3px;
+  }
+  
+  .hero-stack .logo {
+    display: flex;
+    width: 108px;
+    height: 36px;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-stack .text-wrapper-5 {
+    position: relative;
+    width: 174px;
+    height: 36px;
+    margin-top: -1px;
+    margin-right: -66px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 41.6px;
+    white-space: nowrap;
+  }
+  
+  .hero-stack .home-about {
+    position: absolute;
+    width: 550px;
+    top: 9px;
+    left: 422px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--lighter);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
