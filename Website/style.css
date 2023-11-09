@@ -122,6 +122,7 @@
   text-align: center;
   letter-spacing: 0;
   line-height: 136.1px;
+  
 }
 
 .hero-stack .text-wrapper {
@@ -235,7 +236,7 @@
   height: 157px;
   background-image: url(./img/header-BG.svg);
   background-size: 100% 100%;
-  background-color: burlywood;
+  background-color: var(--brown);
 }
 
 .hero-stack .menu {
@@ -312,6 +313,9 @@
 }
 
 .shaping-the-perfect .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 1305px;
   height: 857px;
@@ -333,39 +337,21 @@
   left: 0;
 }
 
-.shaping-the-perfect .overlap-group {
-  position: relative;
-  width: 1171px;
-  height: 572px;
-}
-
-.shaping-the-perfect .button {
-  display: flex;
-  flex-direction: column;
-  width: 180px;
-  height: 56px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 16px 20px;
-  position: absolute;
-  top: 516px;
-  left: 966px;
-  background-color: var(--light-gold);
-  border-radius: 8px;
-  all: unset;
-  box-sizing: border-box;
-}
-
 .shaping-the-perfect .frame {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 9px;
-  position: relative;
+  position: absolute;
   flex: 0 0 auto;
   margin-top: -1px;
   margin-bottom: -1px;
+
+}
+
+.shaping-the-perfect .frame .arrow {
+  width: 50%;
+  height: 50%;
 }
 
 .shaping-the-perfect .text-wrapper {
