@@ -1,3 +1,11 @@
+body{
+  zoom: 106%;
+  overflow-x: hidden;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
 .hero-stack .container {
   position: relative;
   width: 1440px;
