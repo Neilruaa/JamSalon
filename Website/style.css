@@ -1,14 +1,3 @@
-.hero-stack {
-  display: flex;
-  flex-direction: column;
-  width: 1440px;
-  height: 918px;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  position: relative;
-}
-
 .hero-stack .container {
   position: relative;
   width: 1440px;
@@ -334,6 +323,10 @@
   height: 857px;
   background-color: var(--brown);
   border-radius: 26px;
+  background-image: url("../Website/img/photo\ de\ fou.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .shaping-the-perfect .contents {
