@@ -1,0 +1,9 @@
+body{
+    zoom: 106%;
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-right: 100px;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,378 @@
+body{
+    zoom: 106%;
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-right: 100px;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    scroll-behavior: smooth;
+  }
+
+  .sound-giver {
+    background-color: #f2f4f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sound-giver .div {
+    background-color: var(--lighter);
+    width: 1440px;
+    height: 4274px;
+    position: relative;
+  }
+  
+  .sound-giver .hero-stack {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 918px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-giver .container {
+    position: relative;
+    width: 1440px;
+    height: 918px;
+  }
+  
+  .sound-giver .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 1607px;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-giver .BG {
+    position: absolute;
+    width: 1440px;
+    height: 830px;
+    top: 88px;
+    left: 0;
+    background-color: #f2f4f3;
+  }
+  
+  .sound-giver .box {
+    position: absolute;
+    width: 926px;
+    height: 304px;
+    top: 251px;
+    left: 257px;
+    background-color: var(--light-gold);
+    border-radius: 26px;
+  }
+  
+  .sound-giver .header {
+    position: absolute;
+    width: 900px;
+    height: 416px;
+    top: 251px;
+    left: 270px;
+    background-color: transparent;
+  }
+  
+  .sound-giver .contents {
+    width: 900px;
+    height: 416px;
+  }
+  
+  .sound-giver .heading {
+    position: relative;
+    width: 902px;
+    height: 416px;
+  }
+  
+  .sound-giver .find-a-band {
+    position: absolute;
+    width: 900px;
+    top: 0;
+    left: 0;
+    font-family: "Lexend Deca-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--lighter);
+    font-size: 117px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 147.4px;
+  }
+  
+  .sound-giver .top-ber-menu {
+    position: absolute;
+    width: 1440px;
+    height: 807px;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-giver .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 157px;
+    top: 0;
+    left: 0;
+    background-color: var(--brown);
+    background-size: 100% 100%;
+  }
+  
+  .sound-giver .menu {
+    position: relative;
+    width: 1352px;
+    height: 39px;
+    top: 23px;
+    left: 56px;
+  }
+  
+  .sound-giver .icons {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 1326px;
+  }
+  
+  .sound-giver .logo {
+    display: flex;
+    width: 108px;
+    height: 36px;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-giver .text-wrapper {
+    position: relative;
+    width: 174px;
+    height: 36px;
+    margin-top: -1px;
+    margin-right: -66px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 41.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .home-about {
+    position: absolute;
+    width: 550px;
+    top: 9px;
+    left: 422px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--lighter);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .menu-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 218px;
+    top: 658px;
+    left: 0;
+    background-image: url(./img/header-BG.svg);
+    background-size: 100% 100%;
+  }
+  
+  .sound-giver .members-genre-wrapper {
+    position: relative;
+    width: 1069px;
+    height: 88px;
+    top: 53px;
+
+  }
+  
+  .sound-giver .members-genre {
+    position: absolute;
+    width: 1440px;
+    top: 34px;
+    padding-left: 52px;
+    left: 0;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--lighter);
+    background-color: var(--brown);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+  }
+  
+  .sound-giver .polygon {
+    left: 152px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-giver .img {
+    left: 320px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-giver .polygon-2 {
+    left: 522px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-giver .rectangle {
+    height: 702px;
+    top: 905px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .rectangle-2 {
+    height: 702px;
+    top: 905px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .rectangle-3 {
+    height: 702px;
+    top: 1689px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .rectangle-4 {
+    height: 702px;
+    top: 1689px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .text-wrapper-2 {
+    top: 1471px;
+    left: 96px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .text-wrapper-3 {
+    top: 1471px;
+    left: 779px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .text-wrapper-4 {
+    top: 2260px;
+    left: 779px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .div-wrapper {
+    position: absolute;
+    width: 587px;
+    height: 702px;
+    top: 2476px;
+    left: 86px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .text-wrapper-5 {
+    top: 571px;
+    left: 10px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-giver .overlap-2 {
+    position: absolute;
+    width: 587px;
+    height: 702px;
+    top: 2476px;
+    left: 769px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .rectangle-5 {
+    height: 464px;
+    top: 3289px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .rectangle-6 {
+    height: 464px;
+    top: 3289px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-giver .text-wrapper-6 {
+    top: 2260px;
+    left: 96px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
