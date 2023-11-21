@@ -2219,27 +2219,16 @@ a {
   }
 }
 
-#wee { position: absolute;
-  color: hsl(150, 8%, 95%);
-  right: 417px;;
-  animation: moveTextt 3s infinite; 
-  width: 500px;
+.hero-stack .home-about a,
+.hero-stack .sound-giver a,
+.hero-stack .sound-cruiter a,
+.hero-stack .profile {
+  transition: transform 0.3s ease-in-out;
 }
 
-@keyframes moveTextt {
-  0% {
-    transform:rotate(0deg);
-  }
-  25% {
-    transform:rotate(2deg);
-  }
-  50% {
-    transform:rotate(0deg);
-  }
-  75% {
-    transform:rotate(-2deg);
-  }
-  100% {
-    transform:rotate(0deg);
-  }
+.hero-stack .home-about:hover a,
+.hero-stack .sound-giver:hover a,
+.hero-stack .sound-cruiter:hover a,
+.hero-stack .profile:hover {
+  transform: scale(1.1);
 }
