@@ -8,6 +8,7 @@ body{
   margin-bottom: -40px;
   scroll-behavior: smooth;
   z-index: 2;
+  gap:1rem;
 }
 
 a { 
@@ -119,6 +120,7 @@ a {
 
 .hero-stack #we {
   color: #f2f4f3;
+  opacity: 0%;
 }
 
 .hero-stack .we-make-musical {
@@ -376,6 +378,7 @@ a {
   height: 460px;
   top: 26px;
   left: 262px;
+  filter: url(#threshold) blur(0.6px);
 }
 
 .shaping-the-perfect .div {
@@ -2170,5 +2173,48 @@ a {
   }
   0% {
     opacity: 0;
+  }
+}
+
+.shaping-the-perfect .div,
+.shaping-the-perfect .text-wrapper-2,
+.shaping-the-perfect .text-wrapper-3 {
+  animation: moveText 2s infinite ease-in-out; 
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#wee { position: absolute;
+  color: hsl(150, 8%, 95%);
+  right: 417px;;
+  animation: moveTextt 3s infinite; 
+  width: 500px;
+}
+
+@keyframes moveTextt {
+  0% {
+    transform:rotate(0deg);
+  }
+  25% {
+    transform:rotate(2deg);
+  }
+  50% {
+    transform:rotate(0deg);
+  }
+  75% {
+    transform:rotate(-2deg);
+  }
+  100% {
+    transform:rotate(0deg);
   }
 }
