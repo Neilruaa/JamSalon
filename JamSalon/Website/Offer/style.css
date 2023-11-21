@@ -166,4 +166,19 @@ body{
     text-decoration: none;
   } 
 
+.offer .menu {
+  transition: transform 0.3s ease-in-out;
+}
+
+.offer .home-about:hover {
+  transform: scale(1.1);
+}
+
+.offer .sound-giver:hover,
+.offer .sound-cruiter:hover,
+.offer .profile:hover {
+  transform: scale(1);
+}
+
+
   
