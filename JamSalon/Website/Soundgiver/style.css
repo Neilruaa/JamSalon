@@ -1,0 +1,992 @@
+body{
+  zoom: 106%;
+  overflow-x: hidden;
+  margin-left: -10px;
+  margin-right: 100px;
+  margin-top: -10px;
+  margin-bottom: -40px;
+  scroll-behavior: smooth;
+}
+
+.sound-cruiter {
+    background-color: #f2f4f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sound-cruiter .div {
+    background-color: var(--lighter);
+    width: 1440px;
+    height: 4274px;
+    position: relative;
+  }
+  
+  .sound-cruiter .hero-stack {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 918px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-cruiter .container {
+    height: 918px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .sound-cruiter .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 1607px;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-cruiter .BG {
+    height: 830px;
+    top: 88px;
+    background-color: #f2f4f3;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .sound-cruiter .box {
+    position: absolute;
+    width: 926px;
+    height: 304px;
+    top: 251px;
+    left: 257px;
+    background-color: var(--light-gold);
+    border-radius: 26px;
+  }
+  
+  .sound-cruiter .header {
+    position: absolute;
+    width: 900px;
+    height: 416px;
+    top: 251px;
+    left: 270px;
+    background-color: transparent;
+  }
+  
+  .sound-cruiter .contents {
+    width: 900px;
+    height: 416px;
+  }
+  
+  .sound-cruiter .heading {
+    position: relative;
+    width: 902px;
+    height: 416px;
+  }
+  
+  .sound-cruiter .find-a-member {
+    position: absolute;
+    width: 900px;
+    top: 0;
+    left: 0;
+    font-family: "Lexend Deca-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--lighter);
+    font-size: 117px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 147.4px;
+  }
+  
+  .sound-cruiter .top-ber-menu {
+    position: absolute;
+    width: 1440px;
+    height: 807px;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-cruiter .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/header-BG.svg);
+    background-size: 100% 100%;
+    background-color: var(--brown);
+  }
+  
+  .sound-cruiter .menu {
+    position: relative;
+    width: 1352px;
+    height: 39px;
+    top: 23px;
+    left: 56px;
+    
+  }
+  
+  .sound-cruiter .icons {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 1326px;
+  }
+  
+
+  
+  .sound-cruiter .logo {
+    display: flex;
+    width: 108px;
+    height: 36px;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .sound-cruiter .text-wrapper {
+    position: relative;
+    width: 174px;
+    height: 36px;
+    margin-top: -1px;
+    margin-right: -66px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 41.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .home-about {
+    position: absolute;
+    width: 550px;
+    top: 9px;
+    left: 492px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--lighter);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .menu-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 218px;
+    top: 658px;
+    left: 0;
+    background-image: url(./img/header-BG-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .sound-cruiter .instrument-genre-age-wrapper {
+    position: relative;
+    width: 1569px;
+    height: 88px;
+    top: 53px;
+    left: 31px;
+    
+  }
+  
+  .sound-cruiter .instrument-genre-age {
+    position: absolute;
+    width: 1567px;
+    top: 34px;
+    padding-left: 52px  ;
+    padding-left:0px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--dark);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    background-color: var(--brown);
+    color: var(--lighter);
+  }
+
+  .footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .footer .container {
+    position: relative;
+    width: 1440px;
+    height: 100px;
+  }
+  
+  .footer .overlap-group {
+    border-radius: 26px 26px 0px 0px;
+    position: relative;
+  }
+  
+  .footer .div {
+    height: 43px;
+    background-color: var(--lighter);
+    position: absolute;
+    width: 1440px;
+    top: 0;
+    left: 0;
+  }
+  
+  .footer .BG-2 {
+    background-color: var(--brown);
+    border-radius: 26px 26px 0px 0px;
+    position: absolute;
+    width: 1440px;
+    top: 0;
+    left: 0;
+  }
+  
+  .footer .logo-and-page-links {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 422px;
+    left: 135px;
+  }
+  
+  .footer .line {
+    position: relative;
+    width: 1170px;
+    height: 1px;
+    margin-top: -0.25px;
+  }
+  
+  .footer .logo-and-manu {
+    position: relative;
+    width: 1172px;
+    height: 50.06px;
+    margin-right: -2px;
+  }
+  
+  .footer .home-about-contact {
+    position: absolute;
+    width: 252px;
+    top: 13px;
+    left: 218px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .footer .contents {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 85px;
+    position: absolute;
+    top: 114px;
+    left: 135px;
+  }
+  
+  
+  .footer .social-media-logo {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 222px;
+    left: 0;
+  }
+  
+  .footer .div-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .footer .div-3 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    background-color: var(--dark-gold);
+    border-radius: 19px;
+  }
+  
+  .footer .img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 9px;
+  }
+  
+  .footer .text {
+    gap: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer .text-wrapper {
+    position: relative;
+    width: 93px;
+    height: 29px;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .footer .line-2 {
+    position: relative;
+    width: 47px;
+    height: 2px;
+    margin-bottom: -1px;
+  }
+  
+  .footer .quick-links {
+    position: relative;
+    width: 122px;
+    height: 241px;
+  }
+  
+  .footer .text-2 {
+    gap: 16px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer .text-wrapper-2 {
+    position: relative;
+    width: 122px;
+    height: 29px;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .footer .line-3 {
+    position: relative;
+    width: 47px;
+    height: 2px;
+  }
+  
+  .footer .about-company-latest {
+    position: relative;
+    width: 115px;
+    height: 180px;
+    font-family: "Lexend Deca-Regular", Helvetica;
+    font-weight: 400;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 37.2px;
+  }
+  
+  .footer .newsletter {
+    position: relative;
+    width: 297px;
+    height: 190px;
+  }
+  .footer .newsletter.text-wrapper-4{
+    background-color: var(--light-gold);
+  }
+  
+  
+  .footer .sign-up {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 134px;
+    left: 0;
+  }
+  
+  .footer .sign-up-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .footer .message {
+    position: relative;
+    width: 149px;
+    height: 36px;
+  }
+  
+  .footer .text-wrapper-3 {
+    position: absolute;
+    width: 147px;
+    top: 0;
+    left: 0;
+    font-family: "Lexend Deca-Regular", Helvetica;
+    font-weight: 400;
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 37.2px;
+    white-space: nowrap;
+  }
+  
+  .footer .button {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: relative;
+    background-color: var(--light-gold);
+    border-radius: 5px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .footer .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -9px;
+    margin-bottom: -9px;
+    margin-left: -1.5px;
+    margin-right: -1.5px;
+  }
+  
+  .footer .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .footer .line-4 {
+    position: relative;
+    width: 297px;
+    height: 1px;
+    margin-bottom: -0.8px;
+  }
+  
+  .footer .text-3 {
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer .text-wrapper-5 {
+    position: relative;
+    width: 108px;
+    height: 29px;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .footer .p {
+    position: relative;
+    width: 235px;
+    height: 49px;
+    font-family: "Lexend Deca-Regular", Helvetica;
+    font-weight: 400;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23.8px;
+  }
+  
+  .sound-cruiter .polygon {
+    left: 177px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-cruiter .img {
+    left: 347px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-cruiter .polygon-2 {
+    left: 491px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-cruiter .polygon-3 {
+    left: 693px;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top: 756px;
+  }
+  
+  .sound-cruiter .rectangle {
+    height: 702px;
+    top: 905px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-image: url(../img/IMG_9872.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  
+  .sound-cruiter .rectangle-2 {
+    height: 702px;
+    top: 905px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .rectangle-3 {
+    height: 702px;
+    top: 1689px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .rectangle-4 {
+    height: 702px;
+    top: 1689px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .text-wrapper-2 {
+    top: 1471px;
+    left: 96px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--lighter);
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .text-wrapper-3 {
+    top: 1471px;
+    left: 779px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .text-wrapper-4 {
+    top: 2260px;
+    left: 779px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .div-wrapper {
+    position: absolute;
+    width: 587px;
+    height: 702px;
+    top: 2476px;
+    left: 86px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .text-wrapper-5 {
+    top: 571px;
+    left: 10px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .overlap-2 {
+    position: absolute;
+    width: 587px;
+    height: 702px;
+    top: 2476px;
+    left: 769px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .rectangle-5 {
+    height: 464px;
+    top: 3289px;
+    left: 86px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .rectangle-6 {
+    height: 464px;
+    top: 3289px;
+    left: 769px;
+    position: absolute;
+    width: 587px;
+    background-color: #d9d9d9;
+  }
+  
+  .sound-cruiter .text-wrapper-6 {
+    top: 2260px;
+    left: 96px;
+    position: absolute;
+    width: 313px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 153.6px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 3753px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .sound-cruiter .overlap-wrapper {
+    height: 521px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .sound-cruiter .overlap-3 {
+    position: relative;
+    height: 521px;
+  }
+  
+  .sound-cruiter .overlap-group-wrapper {
+    height: 521px;
+    top: 0;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .sound-cruiter .overlap-group-2 {
+    position: relative;
+    height: 521px;
+    border-radius: 26px 26px 0px 0px;
+  }
+  
+  .sound-cruiter .BG-2 {
+    height: 43px;
+    top: 0;
+    background-color: var(--lighter);
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .sound-cruiter .BG-3 {
+    height: 521px;
+    top: 0;
+    background-color: var(--brown);
+    border-radius: 26px 26px 0px 0px;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  .sound-cruiter .logo-and-page-links {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 422px;
+    left: 135px;
+  }
+  
+  .sound-cruiter .line {
+    position: relative;
+    width: 1170px;
+    height: 1px;
+    margin-top: -0.25px;
+  }
+  
+  .sound-cruiter .logo-and-manu {
+    position: relative;
+    width: 1172px;
+    height: 50.06px;
+    margin-right: -2px;
+  }
+  
+  .sound-cruiter .home-about-contact {
+    position: absolute;
+    width: 252px;
+    top: 13px;
+    left: 918px;
+    font-family: "Lexend Deca-Medium", Helvetica;
+    font-weight: 500;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .contents-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 85px;
+    position: absolute;
+    top: 114px;
+    left: 135px;
+  }
+  
+  .sound-cruiter .about-us {
+    position: relative;
+    width: 170px;
+    height: 260px;
+  }
+  
+  .sound-cruiter .social-media-logo {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 222px;
+    left: 0;
+  }
+  
+  .sound-cruiter .div-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sound-cruiter .div-3 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    background-color: var(--dark-gold);
+    border-radius: 19px;
+  }
+  
+  .sound-cruiter .img-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 9px;
+  }
+  
+  .sound-cruiter .text {
+    gap: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sound-cruiter .text-wrapper-7 {
+    position: relative;
+    width: 93px;
+    height: 29px;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .line-2 {
+    position: relative;
+    width: 47px;
+    height: 2px;
+    margin-bottom: -1px;
+  }
+  
+  .sound-cruiter .quick-links {
+    position: relative;
+    width: 122px;
+    height: 241px;
+  }
+  
+  .sound-cruiter .text-2 {
+    gap: 16px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sound-cruiter .text-wrapper-8 {
+    position: relative;
+    width: 122px;
+    height: 29px;
+    margin-top: -1px;
+    font-family: "Lexend Deca-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--lighter);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .sound-cruiter .line-3 {
+    position: relative;
+    width: 47px;
+    height: 2px;
+  }
+  
+  .sound-cruiter .soundgiver {
+    position: relative;
+    width: 115px;
+    height: 180px;
+    font-family: "Lexend Deca-Regular", Helvetica;
+    font-weight: 400;
+    color: #a7a7a7;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 37.2px;
+  }
+
+  a { 
+    color: inherit; 
+    text-decoration: none;
+  } 
+  
+  .trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--lighter);
+    border-radius: 50%;
+    animation: trail 1s ;
+  }
+  
+  @keyframes trail {
+    100% {
+      opacity: 1;
+    }
+    0% {
+      opacity: 0;
+    }
+  }
+  
+  .sound-cruiter .polygon-2{
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+  .sound-cruiter .polygon{
+     transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+
+  .sound-cruiter .img{
+    transform: rotate(180deg);
+   transition: transform 0.2s ease;
+ }
+
+
+  .sound-cruiter .polygon:active {
+    transform: rotate(120deg);
+  }
+
+  .sound-cruiter .polygon-2:active{
+    transform: rotate(120deg);
+  }
+
+  .sound-cruiter .img:active{
+    transform: rotate(120deg);
+  }
