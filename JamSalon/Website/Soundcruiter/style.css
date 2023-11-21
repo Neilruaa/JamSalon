@@ -398,3 +398,30 @@ body{
       opacity: 0;
     }
   }
+
+  .sound-giver .polygon-2{
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+  .sound-giver .polygon{
+     transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+
+  .sound-giver .img{
+    transform: rotate(180deg);
+   transition: transform 0.2s ease;
+ }
+
+
+  .sound-giver .polygon:active {
+    transform: rotate(120deg);
+  }
+
+  .sound-giver .polygon-2:active{
+    transform: rotate(120deg);
+  }
+
+  .sound-giver .img:active{
+    transform: rotate(120deg);
+  }
