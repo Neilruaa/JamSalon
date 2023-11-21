@@ -2243,3 +2243,16 @@ a {
     transform:rotate(0deg);
   }
 }
+.hero-stack .home-about ,
+.hero-stack .sound-giver ,
+.hero-stack .sound-cruiter ,
+.hero-stack .profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-stack .home-about:hover ,
+.hero-stack .sound-giver:hover ,
+.hero-stack .sound-cruiter:hover ,
+.hero-stack .profile:hover {
+  transform: scale(1.1);
+}
