@@ -70,3 +70,6 @@ body {
     line-height: 51.1px;
   }
   
+canvas{
+    position: absolute;
+  }
