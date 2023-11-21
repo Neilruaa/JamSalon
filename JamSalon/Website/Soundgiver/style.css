@@ -210,6 +210,8 @@ body{
     font-size: 24px;
     letter-spacing: 0;
     line-height: 38.4px;
+    background-color: var(--brown);
+    color: var(--lighter);
   }
 
   .footer {
@@ -956,4 +958,31 @@ body{
     0% {
       opacity: 0;
     }
+  }
+  
+  .sound-cruiter .polygon-2{
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+  .sound-cruiter .polygon{
+     transform: rotate(180deg);
+    transition: transform 0.2s ease;
+  }
+
+  .sound-cruiter .img{
+    transform: rotate(180deg);
+   transition: transform 0.2s ease;
+ }
+
+
+  .sound-cruiter .polygon:active {
+    transform: rotate(120deg);
+  }
+
+  .sound-cruiter .polygon-2:active{
+    transform: rotate(120deg);
+  }
+
+  .sound-cruiter .img:active{
+    transform: rotate(120deg);
   }
