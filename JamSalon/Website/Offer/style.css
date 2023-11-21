@@ -1,166 +1,149 @@
-body{
-    zoom: 106%;
-    overflow-x: hidden;
-    margin-left: -10px;
-    margin-right: 100px;
-    margin-top: -10px;
-    margin-bottom: -40px;
-    scroll-behavior: smooth;
-  }
+.offer {
+  background-color: #f2f4f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
-  .offer {
-    background-color: #f2f4f3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .offer .div {
-    background-color: var(--lighter);
-    overflow: hidden;
-    width: 1440px;
-    height: 2547px;
-    position: relative;
-  }
-  
-  .offer .hero-stack {
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-    height: 918px;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .offer .container {
-    position: relative;
-    width: 1440px;
-    height: 918px;
-  }
-  
-  .offer .top-ber-menu {
-    position: absolute;
-    width: 1440px;
-    height: 88px;
-    top: 0;
-    left: 0;
-  }
-  
-  .offer .overlap-group {
-    height: 157px;
-    background-image: url(./img/header-BG.svg);
-    background-size: 100% 100%;
-  }
-  
-  .offer .menu {
-    position: relative;
-    width: 1352px;
-    height: 39px;
-    top: 23px;
-    left: 56px;
-  }
-  
-  .offer .icons {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 9px;
-    left: 1326px;
-  }
-  
-  .offer .round {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    top: 33px;
-    left: 437px;
-    background-color: var(--dark-gold);
-    border-radius: 3px;
-  }
-  
-  .offer .logo {
-    display: flex;
-    width: 108px;
-    height: 36px;
-    align-items: flex-start;
-    gap: 6px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .offer .text-wrapper {
-    position: relative;
-    width: 174px;
-    height: 36px;
-    margin-top: -1px;
-    margin-right: -66px;
-    font-family: "Lexend Deca-SemiBold", Helvetica;
-    font-weight: 600;
-    color: var(--lighter);
-    font-size: 32px;
-    letter-spacing: 0;
-    line-height: 41.6px;
-    white-space: nowrap;
-  }
-  
-  .offer .home-about {
-    position: absolute;
-    width: 550px;
-    top: 9px;
-    left: 422px;
-    font-family: "Lexend Deca-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--lighter);
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22.4px;
-    white-space: nowrap;
-  }
-  
-  .offer .rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 1388px;
-    top: 88px;
-    left: 0;
-    background-color: #d9d9d9;
-  }
-  
-  .offer .text-wrapper-2 {
-    position: absolute;
-    width: 720px;
-    top: 1319px;
-    left: 33px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 128px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .offer .instrument-genre {
-    position: absolute;
-    width: 1365px;
-    top: 1522px;
-    left: 38px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 64px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
+.offer .div {
+  background-color: var(--lighter);
+  overflow: hidden;
+  width: 1440px;
+  height: 2547px;
+  position: relative;
+}
 
-  a { 
-    color: inherit; 
-    text-decoration: none;
-  } 
+.offer .hero-stack {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 918px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  
+.offer .container {
+  position: relative;
+  width: 1440px;
+  height: 918px;
+}
+
+.offer .top-ber-menu {
+  position: absolute;
+  width: 1440px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.offer .overlap-group {
+  height: 157px;
+  background-image: url(./img/header-BG.svg);
+  background-size: 100% 100%;
+  background-color: var(--brown);;
+}
+.offer .menu {
+  position: relative;
+  width: 1352px;
+  height: 39px;
+  top: 23px;
+  left: 56px;
+}
+
+.offer .icons {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 9px;
+  left: 1326px;
+}
+
+.offer .round {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 33px;
+  left: 437px;
+  background-color: var(--dark-gold);
+  border-radius: 3px;
+}
+
+.offer .logo {
+  display: flex;
+  width: 108px;
+  height: 36px;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.offer .text-wrapper {
+  position: relative;
+  width: 174px;
+  height: 36px;
+  margin-top: -1px;
+  margin-right: -66px;
+  font-family: "Lexend Deca-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--lighter);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 41.6px;
+  white-space: nowrap;
+}
+
+.offer .home-about {
+  position: absolute;
+  width: 550px;
+  top: 9px;
+  left: 422px;
+  font-family: "Lexend Deca-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--lighter);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.offer .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1388px;
+  top: 88px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.offer .text-wrapper-2 {
+  position: absolute;
+  width: 720px;
+  top: 1319px;
+  left: 33px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.offer .instrument-genre {
+  position: absolute;
+  width: 1365px;
+  top: 1522px;
+  left: 38px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
