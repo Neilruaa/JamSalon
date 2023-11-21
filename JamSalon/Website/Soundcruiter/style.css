@@ -425,3 +425,17 @@ a {
 .sound-giver .img:active{
   transform: rotate(120deg);
 }
+
+.sound-giver .home-about,
+.sound-giver .sound-giver,
+.sound-giver .sound-cruiter,
+.sound-giver .profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sound-giver .home-about:hover,
+.sound-giver .sound-giver:hover,
+.sound-giver .sound-cruiter:hover,
+.sound-giver .profile:hover {
+  transform: scale(1.1);
+}
