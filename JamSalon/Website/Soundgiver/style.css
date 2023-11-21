@@ -582,9 +582,7 @@ body{
     left: 86px;
     position: absolute;
     width: 587px;
-    background-image: url(../img/IMG_9872.jpg);
-    background-size:cover;
-    background-position: center;
+    background-color: #d9d9d9;
   }
   
   .sound-cruiter .rectangle-2 {
@@ -621,7 +619,7 @@ body{
     width: 313px;
     font-family: "Lexend Deca-Medium", Helvetica;
     font-weight: 500;
-    color: var(--lighter);
+    color: #000000;
     font-size: 96px;
     letter-spacing: 0;
     line-height: 153.6px;
@@ -988,3 +986,17 @@ body{
   .sound-cruiter .img:active{
     transform: rotate(120deg);
   }
+
+.sound-cruiter .home-about,
+.sound-cruiter .sound-giver,
+.sound-cruiter .sound-cruiter,
+.sound-cruiter .profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sound-cruiter .home-about:hover,
+.sound-cruiter .sound-giver:hover,
+.sound-cruiter .sound-cruiter:hover,
+.sound-cruiter .profile:hover {
+  transform: scale(1.1);
+}
