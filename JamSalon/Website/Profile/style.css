@@ -310,4 +310,18 @@ body{
       opacity: 0;
     }
   }
+
+.profile .home-about,
+.profile .sound-giver,
+.profile .sound-cruiter,
+.profile .profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile .home-about:hover,
+.profile .sound-giver:hover,
+.profile .sound-cruiter:hover,
+.profile .profile:hover {
+  transform: scale(1.1);
+}
   
