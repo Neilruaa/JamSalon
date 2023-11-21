@@ -990,3 +990,18 @@ body{
   .sound-cruiter .img:active{
     transform: rotate(120deg);
   }
+
+.sound-cruiter .home-about,
+.sound-cruiter .sound-giver,
+.sound-cruiter .sound-cruiter,
+.sound-cruiter .profile {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sound-cruiter .home-about:hover,
+.sound-cruiter .sound-giver:hover,
+.sound-cruiter .sound-cruiter:hover,
+.sound-cruiter .profile:hover {
+  transform: scale(1.1);
+}
+
