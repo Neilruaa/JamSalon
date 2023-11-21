@@ -52,7 +52,7 @@ body{
   }
   
   .offer .overlap-group {
-    height: 157px;
+    height: 80px;
     background-image: url(./img/header-BG.svg);
     background-size: 100% 100%;
     background-color: var(--brown);;
